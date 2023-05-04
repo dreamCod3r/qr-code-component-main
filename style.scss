@@ -1,0 +1,41 @@
+@import 'colors';
+
+*{
+    margin: 0;
+}
+
+body {
+    background-color: $body-color;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.white {
+    background-color: $white;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 375px;
+    height: auto;
+    h2 {
+        font-weight: 700;
+        padding-inline: 30px;
+    }
+    p {
+        font-size: 0.9375rem;
+        margin-top: 20px;
+        margin-inline: 10px;
+        font-weight: 400;
+    }
+    img {
+        border-radius: 10px;
+        width: inherit;
+        height: inherit;
+    }
+}
